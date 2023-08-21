@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container{
+    max-width: 1000px;
+}
+#canvas {
+    border: 1px solid black;
+    width: auto;
+    height: 100%;
+  
+    max-width: 100%;
+    width: auto;
+    height: 100vh; 
+    margin: 0 auto; 
+
+}
+
+.color {
+    display: inline-block;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#botones {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+}
